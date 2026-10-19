@@ -1,0 +1,45 @@
+/* Variables */
+:root {
+    --color-1: #0d4057;
+    --color-2: #efb6df;
+}
+
+/* Core style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Main header */
+header {
+    padding: 20px 10px;
+}
+
+.main-logo {
+    display: inline-block;
+}
+
+.main-logo>.logo {
+    font-size: x-large;
+    color: var(--color-1);
+    margin-right: 50px;
+}
+
+.main-nav,
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-nav__item>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-1);
+}

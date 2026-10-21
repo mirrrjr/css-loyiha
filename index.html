@@ -8,17 +8,24 @@
         <meta name="author" content="Palonchi Pistonchiyev" />
         <title>My Portfolio</title>
         <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+            integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
         <!-- Header section -->
-        <div class="container">
-            <header class="main-header">
-                <div class="main-logo">
-                    <h3 class="logo">LOGO</h3>
+        <header class="main-header">
+            <div class="container">
+                <div class="main-header__brand">
+                    <a href="index.html">Logo</a>
                 </div>
                 <nav class="main-nav">
                     <ul class="main-nav__items">
-                        <li class="main-nav__item">
+                        <li class="main-nav__item active">
                             <a href="#">Asosiy</a>
                         </li>
                         <li class="main-nav__item">
@@ -38,13 +45,45 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
-        </div>
+            </div>
+        </header>
         <!-- /Header section -->
 
         <!-- Main section -->
-        <section id="main-section">
-            <h1>Main section</h1>
+        <section class="home-banner__area">
+            <div class="container">
+                <div class="main-section__info">
+                    <h4 class="main-section__welcome to-upper">
+                        Salom hammaga
+                    </h4>
+                    <h2 class="main-section__introduction to-upper">
+                        Mirsoli Mirsultonov
+                    </h2>
+                    <h3 class="main-section__position to-upper">
+                        Full-stack web dasturchi
+                    </h3>
+
+                    <div class="main-section__links">
+                        <a href="https://t.me/mirrrjr">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="https://github.com/mirrrjr">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://reddit.com/mirrrjr">
+                            <i class="fa-brands fa-reddit"></i>
+                        </a>
+                    </div>
+
+                    <button class="main-section__action to-upper">
+                        Ishlarimni ko'ring
+                    </button>
+                </div>
+
+                <div class="main-section__image">
+                    <img src="./images/me.png" alt="My photo" />
+                </div>
+            </div>
         </section>
         <!-- /Main section -->
 

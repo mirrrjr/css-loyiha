@@ -1,15 +1,14 @@
-/* Variables */
-:root {
-    --color-1: #0d4057;
-    --color-2: #efb6df;
-}
-
-/* Core style */
+/* Core styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.to-upper {
+    text-transform: uppercase;
 }
 
 .container {
@@ -17,29 +16,117 @@
     margin: 0 auto;
 }
 
-/* Main header */
+/* header section */
 header {
-    padding: 20px 10px;
+    padding: 40px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
 }
 
-.main-logo {
+.main-header__brand,
+.main-nav {
     display: inline-block;
+    vertical-align: middle;
 }
 
-.main-logo>.logo {
-    font-size: x-large;
-    color: var(--color-1);
-    margin-right: 50px;
+.main-header__brand a {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05364d;
+    margin-right: 100px;
 }
 
-.main-nav,
 .main-nav__item {
     display: inline-block;
-    margin: 0 10px;
+    padding: 10px;
 }
 
-.main-nav__item>a {
-    text-decoration: none;
+.main-nav__item a {
+    font-size: 12px;
+    font-weight: 500;
     text-transform: uppercase;
-    color: var(--color-1);
+    color: #05364d;
+    transition: all 0.2s ease;
+}
+
+.main-nav__item a:hover {
+    color: #efb6df;
+}
+
+.main-nav__item.active a {
+    color: #efb6df;
+}
+
+/* Main section */
+.home-banner__area {
+    background-image: url('../images/home-banner.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+    padding-top: 200px;
+}
+
+.home-banner__area>.container>div {
+    width: 50%;
+    float: left;
+}
+
+.main-section__welcome {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-section__introduction {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.main-section__position {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main-section__links i {
+    color: gray;
+    font-size: 24px;
+    margin: 0 10px 20px 0;
+}
+
+.fa-telegram:hover {
+    color: #0022ff;
+}
+
+.fa-github:hover {
+    color: #000;
+}
+
+.fa-reddit:hover {
+    color: #ff3300;
+}
+
+.main-section__action {
+    padding: 15px 25px;
+    background-color: #0022ff;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.main-section__image {
+    text-align: right;
+    height: 590px;
+}
+
+.main-section__image img {
+    height: 100%;
 }

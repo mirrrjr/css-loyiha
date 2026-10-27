@@ -10,6 +10,9 @@
   width: 1140px;
   margin: 0 auto;
 }
+.clear-fix {
+  clear: both;
+}
 
 /* Header section */
 header {
@@ -130,4 +133,64 @@ header {
 }
 .my-image img {
   height: 100%;
+}
+
+/* Statistics */
+.statistics-item {
+  padding: 30px 15px;
+  text-align: center;
+  background-color: #f8faff;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.statistics-item h3 {
+  font-size: 27px;
+  margin-bottom: 5px;
+  color: #930ce2;
+}
+.statistics-item p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(150, 149, 149);
+}
+
+/* About me */
+#about-me {
+  padding: 140px 0;
+}
+
+#about-me > .container > div {
+  width: 50%;
+  float: left;
+}
+
+.about-me__image img {
+  max-width: 80%;
+  height: auto;
+}
+.about-me__subtile {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #797979;
+  margin-bottom: 15px;
+}
+.blur-line {
+  display: inline-block;
+  width: 80px;
+  height: 4px;
+  background-color: rgba(237, 35, 159, 0.6);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  border-radius: 5px;
+}
+
+.about-me__title {
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 50px;
+  color: #05364d;
+  margin-bottom: 30px;
 }

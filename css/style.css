@@ -13,6 +13,23 @@
 .clear-fix {
   clear: both;
 }
+.button {
+  border: 0;
+  padding: 20px 15px;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  color: blue;
+  background-color: #fff;
+  outline: 2px solid blue;
+}
 
 /* Header section */
 header {
@@ -104,24 +121,6 @@ header {
   color: rgb(0, 0, 0);
 }
 
-.information button {
-  border: 0;
-  padding: 30px 15px;
-  background-color: blue;
-  border-radius: 5px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.information button:hover {
-  color: blue;
-  background-color: #fff;
-  outline: 2px solid blue;
-}
-
 #main-section > .container > div {
   width: 50%;
   float: left;
@@ -200,4 +199,5 @@ header {
   line-height: 25px;
   font-weight: 300;
   color: #797979;
+  padding-bottom: 40px;
 }

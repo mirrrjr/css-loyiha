@@ -13,6 +13,23 @@
 .clear-fix {
   clear: both;
 }
+.button {
+  border: 0;
+  padding: 20px 15px;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  color: blue;
+  background-color: #fff;
+  outline: 2px solid blue;
+}
 
 /* Header section */
 header {
@@ -104,24 +121,6 @@ header {
   color: rgb(0, 0, 0);
 }
 
-.information button {
-  border: 0;
-  padding: 30px 15px;
-  background-color: blue;
-  border-radius: 5px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.information button:hover {
-  color: blue;
-  background-color: #fff;
-  outline: 2px solid blue;
-}
-
 #main-section > .container > div {
   width: 50%;
   float: left;
@@ -170,7 +169,7 @@ header {
   max-width: 80%;
   height: auto;
 }
-.about-me__subtile {
+.section__subtile {
   text-transform: uppercase;
   font-weight: 300;
   color: #797979;
@@ -186,11 +185,34 @@ header {
   border-radius: 5px;
 }
 
-.about-me__title {
+.section__title {
   font-size: 42px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 50px;
   color: #05364d;
   margin-bottom: 30px;
+}
+
+.section__description {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #797979;
+  padding-bottom: 40px;
+}
+
+/* Services */
+#services {
+  padding: 140px 0;
+}
+
+.services-card__items {
+  width: 100%;
+}
+.services-card__item {
+  display: inline-block;
+  padding: 60px 30px;
+  background-color: #f8faff;
+  text-align: center;
 }

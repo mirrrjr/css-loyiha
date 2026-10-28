@@ -201,3 +201,18 @@ header {
   color: #797979;
   padding-bottom: 40px;
 }
+
+/* Services */
+#services {
+  padding: 140px 0;
+}
+
+.services-card__items {
+  width: 100%;
+}
+.services-card__item {
+  display: inline-block;
+  padding: 60px 30px;
+  background-color: #f8faff;
+  text-align: center;
+}

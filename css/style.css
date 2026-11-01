@@ -1,3 +1,4 @@
+/* Core */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,7 +6,6 @@
   font-family: sans-serif;
   text-decoration: none;
 }
-
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -29,6 +29,39 @@
   color: blue;
   background-color: #fff;
   outline: 2px solid blue;
+}
+.section__subtile {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #797979;
+  margin-bottom: 15px;
+}
+.blur-line {
+  display: inline-block;
+  width: 80px;
+  height: 4px;
+  background-color: rgba(237, 35, 159, 0.6);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+.section__title {
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 50px;
+  color: #05364d;
+  margin-bottom: 30px;
+}
+
+.section__description {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #797979;
+  padding-bottom: 40px;
 }
 
 /* Header section */
@@ -169,50 +202,46 @@ header {
   max-width: 80%;
   height: auto;
 }
-.section__subtile {
-  text-transform: uppercase;
-  font-weight: 300;
-  color: #797979;
-  margin-bottom: 15px;
-}
-.blur-line {
-  display: inline-block;
-  width: 80px;
-  height: 4px;
-  background-color: rgba(237, 35, 159, 0.6);
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-  border-radius: 5px;
-}
-
-.section__title {
-  font-size: 42px;
-  text-transform: capitalize;
-  font-weight: 700;
-  line-height: 50px;
-  color: #05364d;
-  margin-bottom: 30px;
-}
-
-.section__description {
-  font-size: 14px;
-  line-height: 25px;
-  font-weight: 300;
-  color: #797979;
-  padding-bottom: 40px;
-}
 
 /* Services */
 #services {
   padding: 140px 0;
 }
 
-.services-card__items {
-  width: 100%;
-}
 .services-card__item {
+  width: 30%;
+  margin-right: 3%;
   display: inline-block;
   padding: 60px 30px;
   background-color: #f8faff;
   text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.services-card__item:hover {
+  background-color: #5f30ff;
+}
+.services-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #05364d;
+  margin: 45px 0 20px;
+}
+.services-description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #797979;
+  margin-bottom: 35px;
+}
+.services-link {
+  text-transform: uppercase;
+  border-bottom: 2px solid #1440ee;
+}
+.services-card__item:hover .services-title,
+.services-card__item:hover .services-description,
+.services-card__item:hover .services-link {
+  color: #fff;
+}
+.services-card__item:hover .services-link {
+  border-color: #fff;
 }

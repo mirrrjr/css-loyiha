@@ -125,8 +125,38 @@ header {
 .main-section__image {
     text-align: right;
     height: 590px;
+    padding-right: 20px;
 }
 
 .main-section__image img {
     height: 100%;
+}
+
+/* Statistic section */
+
+.statistics__item {
+    display: inline-block;
+    background: #f8f9ff;
+    padding: 30px 15px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.statistics__item h3 {
+    font-size: 27px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.statistics__item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7a7d8c;
 }

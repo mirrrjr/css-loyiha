@@ -73,7 +73,8 @@
 /* Header section */
 header {
   padding: 20px 0;
-  position: absolute;
+  position: fixed;
+  background-color: #fff;
   width: 100%;
   z-index: 999;
 }
@@ -271,4 +272,27 @@ header {
 .clients-section>div {
   width: 50%;
   float: left;
+}
+
+.clients-info__name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #05364d;
+  margin-bottom: 4px;
+}
+
+.clients-info__position {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: #797979;
+}
+
+.clients-info__descripton {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #797979;
+}
+
+.fa-star {
+  color: #ffd804;
 }

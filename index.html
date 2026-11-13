@@ -1,5 +1,21 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Palonchining portfolio web sayti" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="Palonchi Pistonchiyev" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+            integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
 
 <head>
     <meta charset="UTF-8" />
@@ -15,181 +31,175 @@
 
 </head>
 
-<body>
-    <!-- Header section -->
-    <header class="main-header">
-        <div class="container">
-            <div class="main-header__brand">
-                <a href="#">LOGO</a>
+                <nav class="main-nav">
+                    <ul class="main-nav__items">
+                        <li class="main-nav__item active">
+                            <a href="#">Asosiy</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#">Men haqimda</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#">Hizmatlar</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#">Mijozlarim</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#">Partnerlar</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+        </header>
+        <!-- /Header section -->
 
-            <nav class="main-nav">
-                <ul class="main-nav__items">
-                    <li class="main-nav__item active">
-                        <a href="#">Asosiy</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="#">Men haqimda</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="#">Hizmatlar</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="#">Mijozlarim</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="#">Partnerlar</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- /Header section -->
+        <!-- Main section -->
+        <section id="main-section">
+            <div class="container">
+                <div class="information">
+                    <h4>Salom barchaga</h4>
+                    <h2>Mirsoli Mirsultonov</h2>
+                    <h3>Full-stack web dasturchi</h3>
 
-    <!-- Main section -->
-    <section id="main-section">
-        <div class="container">
-            <div class="information">
-                <h4>Salom barchaga</h4>
-                <h2>Mirsoli Mirsultonov</h2>
-                <h3>Full-stack web dasturchi</h3>
+                    <div class="links">
+                        <a href="https://t.me/mirrrjr">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
 
-                <div class="links">
-                    <a href="https://t.me/mirrrjr">
-                        <i class="fa-brands fa-telegram"></i>
-                    </a>
+                        <a href="https://instagram.com/mirrrjr">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
 
-                    <a href="https://instagram.com/mirrrjr">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+                        <a href="https://github.com/mirrrjr">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
 
-                    <a href="https://github.com/mirrrjr">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+                    <button class="button">Ishlarimni ko'ring</button>
                 </div>
 
-                <button class="button">Ishlarimni ko'ring</button>
+                <div class="my-image">
+                    <img src="./images/me.png" alt="Mening rasmim" />
+                </div>
             </div>
+        </section>
+        <!-- /Main section -->
 
-            <div class="my-image">
-                <img src="./images/me.png" alt="Mening rasmim">
+        <!-- Statistics section -->
+        <section id="statistics">
+            <div class="container">
+                <div class="statistics-item">
+                    <h3>15k+</h3>
+                    <p>Hursand mijozlar</p>
+                </div>
+                <div class="statistics-item">
+                    <h3>12k+</h3>
+                    <p>Sotilgan biletlar</p>
+                </div>
+                <div class="statistics-item">
+                    <h3>9/10</h3>
+                    <p>O'rtacha reyting</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- /Main section -->
+        </section>
+        <!-- /Statistics section -->
 
-    <!-- Statistics section -->
-    <section id="statistics">
-        <div class="container">
-            <div class="statistics-item">
-                <h3>15k+</h3>
-                <p>Hursand mijozlar</p>
-            </div>
-            <div class="statistics-item">
-                <h3>12k+</h3>
-                <p>Sotilgan biletlar</p>
-            </div>
-            <div class="statistics-item">
-                <h3>9/10</h3>
-                <p>O'rtacha reyting</p>
-            </div>
-        </div>
-    </section>
-    <!-- /Statistics section -->
+        <!-- About me section -->
+        <section id="about-me">
+            <div class="container">
+                <div class="about-me__image">
+                    <img src="./images/about-us.png" alt="About me" />
+                </div>
 
-    <!-- About me section -->
-    <section id="about-me">
-        <div class="container">
-            <div class="about-me__image">
-                <img src="./images/about-us.png" alt="About me">
-            </div>
+                <div class="about-me__info">
+                    <h5 class="section__subtile">
+                        Men haqimda <span class="blur-line"></span>
+                    </h5>
 
-            <div class="about-me__info">
+                    <h2 class="section__title">
+                        Full-stack web <br />
+                        developer
+                    </h2>
+
+                    <p class="section__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur harum necessitatibus hic perferendis quis
+                        culpa quidem ea maxime, ab enim rerum architecto maiores
+                        impedit ratione sapiente. Beatae ducimus optio
+                        molestias.
+                    </p>
+
+                    <button class="button">CV ni yuklab olish</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="clear-fix"></div>
+        <!-- /About me section -->
+
+        <!-- Services section -->
+        <section id="services">
+            <div class="container">
                 <h5 class="section__subtile">
-                    Men haqimda <span class="blur-line"></span>
+                    Bizning hizmatlar <span class="blur-line"></span>
                 </h5>
 
                 <h2 class="section__title">
-                    Full-stack web <br> developer
+                    Biz sizga qanday <br />
+                    xizmatlar taklif qilamiz
                 </h2>
 
-                <p class="section__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum necessitatibus hic
-                    perferendis quis culpa quidem ea maxime, ab enim rerum architecto maiores impedit ratione sapiente.
-                    Beatae ducimus optio molestias.
-                </p>
-
-                <button class="button">CV ni yuklab olish</button>
-            </div>
-        </div>
-    </section>
-
-    <div class="clear-fix"></div>
-    <!-- /About me section -->
-
-    <!-- Services section -->
-    <section id="services">
-        <div class="container">
-            <h5 class="section__subtile">
-                Men haqimda <span class="blur-line"></span>
-            </h5>
-
-            <h2 class="section__title">
-                Full-stack web <br> developer
-            </h2>
-
-            <div class="services-card__items">
-                <div class="services-card__item">
-                    <img src="./images/s1.png" alt="s1">
-                    <h4 class="services-title">
-                        Web dasturlash
-                    </h4>
-                    <p class="services-description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit ipsam id tempora rem, fugiat ut!
-                    </p>
-                    <a class="services-link" href="#">Ko'proq ko'rish</a>
-                </div>
-                <div class="services-card__item">
-                    <img src="./images/s2.png" alt="s1">
-                    <h4 class="services-title">
-                        UI/UX Design
-                    </h4>
-                    <p class="services-description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit ipsam id tempora rem, fugiat ut!
-                    </p>
-                    <a class="services-link" href="#">Ko'proq ko'rish</a>
-                </div>
-                <div class="services-card__item">
-                    <img src="./images/s3.png" alt="s1">
-                    <h4 class="services-title">
-                        WP Developing
-                    </h4>
-                    <p class="services-description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit ipsam id tempora rem, fugiat ut!
-                    </p>
-                    <a class="services-link" href="#">Ko'proq ko'rish</a>
+                <div class="services-card__items">
+                    <div class="services-card__item">
+                        <img src="./images/s1.png" alt="s1" />
+                        <h4 class="services-title">Web dasturlash</h4>
+                        <p class="services-description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Velit ipsam id tempora rem, fugiat ut!
+                        </p>
+                        <a class="services-link" href="#">Ko'proq ko'rish</a>
+                    </div>
+                    <div class="services-card__item">
+                        <img src="./images/s2.png" alt="s1" />
+                        <h4 class="services-title">UI/UX Design</h4>
+                        <p class="services-description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Velit ipsam id tempora rem, fugiat ut!
+                        </p>
+                        <a class="services-link" href="#">Ko'proq ko'rish</a>
+                    </div>
+                    <div class="services-card__item">
+                        <img src="./images/s3.png" alt="s1" />
+                        <h4 class="services-title">WP Developing</h4>
+                        <p class="services-description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Velit ipsam id tempora rem, fugiat ut!
+                        </p>
+                        <a class="services-link" href="#">Ko'proq ko'rish</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- /Services section -->
+        </section>
+        <!-- /Services section -->
 
-    <!-- Clients section -->
-    <section id="clients">
-        <div class="container">
-            <h5 class="section__subtile">
-                Mijozlarim <span class="blur-line"></span>
-            </h5>
+        <!-- Clients section -->
+        <section id="clients">
+            <div class="container">
+                <h5 class="section__subtile">
+                    Mijozlarim <span class="blur-line"></span>
+                </h5>
 
-            <h2 class="section__title">
-                Mijozlarim men haqimda <br> nima deydi
-            </h2>
+                <h2 class="section__title">
+                    Mijozlarim men haqimda <br />
+                    nima deydi
+                </h2>
 
             <div class="clients-section">
                 <div class="clients-image">
@@ -249,47 +259,80 @@
         </div>
     </section>
     <!-- /Portfolio -->
+                <div class="clients-section">
+                    <div class="clients-image">
+                        <img src="./images/testimonial1.png" alt="clients" />
+                    </div>
+                    <div class="clients-info">
+                        <h2 class="clients-info__name">
+                            Palonchi Pistonchiyev
+                        </h2>
+                        <p class="clients-info__position">Oshpaz</p>
+                        <p class="clients-info__descripton">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vel, accusantium! Quaerat quo id facilis,
+                            labore provident expedita dolore natus facere
+                            consequuntur quasi non vitae incidunt. Voluptate
+                            alias laborum eum similique.
+                        </p>
 
-    <!-- Blog section -->
-    <section id="blog">
-        <h1>Blog</h1>
-    </section>
-    <!-- /Blog section -->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clear-fix"></div>
+        <!-- /Clients section -->
 
-    <!-- Partners section -->
-    <sections id="partners">
-        <h1>Hamkorlar</h1>
-    </sections>
-    <!-- /Partners section -->
+        <!-- Portfolio section -->
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+        </section>
+        <!-- /Portfolio -->
 
-    <!-- Footer section -->
-    <footer class="footer">
-        <nav class="footer-nav">
-            <ul class="footer-nav_items">
-                <li class="footer-nav_item">
-                    <a href="#">Asosiy</a>
-                </li>
-                <li class="footer-nav_item">
-                    <a href="#">Men haqimda</a>
-                </li>
-                <li class="footer-nav_item">
-                    <a href="#">Hizmatlar</a>
-                </li>
-                <li class="footer-nav_item">
-                    <a href="#">Mijozlarim</a>
-                </li>
-                <li class="footer-nav_item">
-                    <a href="#">Portfolio</a>
-                </li>
-                <li class="footer-nav_item">
-                    <a href="#">Blog</a>
-                </li>
-                <li class="footer-nav_item">
-                    <a href="#">Partnerlar</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
-</body>
+        <!-- Blog section -->
+        <section id="blog">
+            <h1>Blog</h1>
+        </section>
+        <!-- /Blog section -->
 
+        <!-- Partners section -->
+        <sections id="partners">
+            <h1>Hamkorlar</h1>
+        </sections>
+        <!-- /Partners section -->
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <nav class="footer-nav">
+                <ul class="footer-nav_items">
+                    <li class="footer-nav_item">
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li class="footer-nav_item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer-nav_item">
+                        <a href="#">Hizmatlar</a>
+                    </li>
+                    <li class="footer-nav_item">
+                        <a href="#">Mijozlarim</a>
+                    </li>
+                    <li class="footer-nav_item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer-nav_item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="footer-nav_item">
+                        <a href="#">Partnerlar</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>

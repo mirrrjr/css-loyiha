@@ -278,6 +278,8 @@ header {
 .fa-star__unlike {
   color: #7a7a7a;
 }
+
+/* Portfolio */
 #portfolio {
   padding: 140px 0;
 }
@@ -322,10 +324,12 @@ header {
   height: 100%;
   background-color: #1440ee;
   visibility: hidden;
+  opacity: 0;
   transition: all 0.3s ease;
 }
 .portfolio-item:hover .portfolio-overlay {
-  visibility: visible;
   left: 20px;
   top: 20px;
+  visibility: visible;
+  opacity: 0.8;
 }
